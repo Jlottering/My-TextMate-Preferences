@@ -11,7 +11,7 @@
 			<string>php</string>
 		</array>
 		<key>keyEquivalent</key>
-		<string>#$@3</string>
+		<string>@\</string>
 	</dict>
 	<key>deleted</key>
 	<array/>

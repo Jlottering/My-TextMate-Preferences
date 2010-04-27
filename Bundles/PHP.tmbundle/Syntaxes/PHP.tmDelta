@@ -7,7 +7,7 @@
 		<key>comment</key>
 		<string>TODO</string>
 		<key>keyEquivalent</key>
-		<string>#$@2</string>
+		<string>@|</string>
 	</dict>
 	<key>deleted</key>
 	<array/>

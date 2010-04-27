@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>deleted</key>
+	<array>
+		<string>56C6FC75-19EA-454F-A2D2-D996DEBE2C89</string>
+		<string>2F24C9CB-23D0-4FDA-9C8D-210027DCEB27</string>
+		<string>CDEA521C-8963-414F-8F8E-F9B81EF79ADA</string>
+		<string>7CE2C842-EBC4-443C-8DDB-3B16AC593D9A</string>
+		<string>1FF5FF82-13A0-4C83-BAD6-D67AE8180FA9</string>
+		<string>25A510D9-0840-4262-A8BE-40F95E856996</string>
+		<string>55CCBE51-3C13-46D8-92D9-52EAD7A5D2D6</string>
+	</array>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>EB4EABA4-7284-4209-AF40-2C9A5C2E6E1E</string>
+			<string>3F762FA4-B46D-4782-AD23-8495539E6F8D</string>
+			<string>------------------------------------</string>
+			<string>BD0FEBF9-6C0A-439B-BAED-F3AF4345EE0D</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
+	<key>name</key>
+	<string>TextMate Sync</string>
+	<key>ordering</key>
+	<array>
+		<string>EB4EABA4-7284-4209-AF40-2C9A5C2E6E1E</string>
+		<string>3F762FA4-B46D-4782-AD23-8495539E6F8D</string>
+		<string>BD0FEBF9-6C0A-439B-BAED-F3AF4345EE0D</string>
+	</array>
+	<key>uuid</key>
+	<string>B0B3DAF1-E6AD-4050-86D4-37A745316FE0</string>
+</dict>
+</plist>

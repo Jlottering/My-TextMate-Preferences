@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>. "$TM_BUNDLE_SUPPORT/sync/code/env.sh"
+. "$TMSYNC_CONFIG"
+
+OUT=`scp -P "$TMSYNC_PORT" "$TM_FILEPATH" "$TMSYNC_USERNAME@$TMSYNC_SERVER:'$TMSYNC_REMOTEPATH${TM_FILEPATH/$TM_PROJECT_DIRECTORY/}'" 2&gt;&amp;1`
+
+if [ -n "$OUT" ]; then
+ echo "$OUT"
+else
+ echo "Synced OK!"
+fi
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^D</string>
+	<key>name</key>
+	<string>Sync File</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>3F762FA4-B46D-4782-AD23-8495539E6F8D</string>
+</dict>
+</plist>

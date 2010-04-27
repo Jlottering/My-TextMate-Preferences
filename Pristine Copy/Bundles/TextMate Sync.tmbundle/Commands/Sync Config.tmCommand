@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>. "$TM_BUNDLE_SUPPORT/sync/code/env.sh"
+
+if [ ! -e "$TMSYNC_CONFIG" ]; then
+ cat "$TM_BUNDLE_SUPPORT/sync/templates/config.sh" &gt; "$TMSYNC_CONFIG"
+fi
+
+mate -a "$TMSYNC_CONFIG"
+
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^D</string>
+	<key>name</key>
+	<string>Sync Config</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>BD0FEBF9-6C0A-439B-BAED-F3AF4345EE0D</string>
+</dict>
+</plist>
