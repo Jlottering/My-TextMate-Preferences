@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>They see me syncin', they hatin'</string>
+	<key>ordering</key>
+	<array>
+		<string>5353C6B4-FE03-4BD8-844C-03E73B8D50F8</string>
+		<string>F06AEDC3-6DA1-40AA-A967-19C0E644DCF6</string>
+		<string>FDA3A76C-4D53-4F5D-B162-DB7E25A729D3</string>
+		<string>D162493A-4CDE-474C-B0A5-1466B92399E4</string>
+	</array>
+	<key>uuid</key>
+	<string>730A06E3-5667-42F5-A634-D7A021CB780F</string>
+</dict>
+</plist>

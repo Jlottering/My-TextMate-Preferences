@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveModifiedFiles</string>
+	<key>command</key>
+	<string>if [[ "$TM_SSH_REMOTE_PATH" == "" ]]; then
+    exit_show_tool_tip "Missing project variable: TM_SSH_REMOTE_PATH"
+fi
+rsync \
+    -auz \
+    --stats \
+    --exclude *.tmproj \
+    ${TM_SSH_PORT:+ --port=$TM_SSH_PORT} \
+    $TM_PROJECT_DIRECTORY/ \
+    ${TM_SSH_USER:+$TM_SSH_USER@}$TM_SSH_HOST:$TM_SSH_REMOTE_PATH</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@p</string>
+	<key>name</key>
+	<string>Push Project</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>FDA3A76C-4D53-4F5D-B162-DB7E25A729D3</string>
+</dict>
+</plist>
