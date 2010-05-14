@@ -12,6 +12,7 @@ rsync \
     -auz \
     --stats \
     --exclude *.tmproj \
+	--exclude .DS_Store \
     ${TM_SSH_PORT:+ --port=$TM_SSH_PORT} \
     $TM_PROJECT_DIRECTORY/ \
     ${TM_SSH_USER:+$TM_SSH_USER@}$TM_SSH_HOST:$TM_SSH_REMOTE_PATH</string>

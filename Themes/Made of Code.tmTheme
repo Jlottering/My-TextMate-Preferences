@@ -16,13 +16,13 @@
 				<key>caret</key>
 				<string>#00FFFF</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#FFFFFF</string>
 				<key>invisibles</key>
 				<string>#CAE2FB3D</string>
 				<key>lineHighlight</key>
-				<string>#00000000</string>
+				<string>#FFFFFF12</string>
 				<key>selection</key>
-				<string>#007DFF80</string>
+				<string>#007DFF75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -33,11 +33,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00000033</string>
+				<string>#00000042</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#C050C2</string>
+				<string>#565353</string>
 			</dict>
 		</dict>
 		<dict>
@@ -100,7 +100,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#102622FA</string>
+				<string>#0C1C19FA</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -675,6 +675,8 @@
 			<dict>
 				<key>background</key>
 				<string>#EEEEEE29</string>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -699,6 +701,19 @@
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#F8C9B4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag Attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#AEEDFF</string>
 			</dict>
 		</dict>
 	</array>

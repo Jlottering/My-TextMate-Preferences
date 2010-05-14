@@ -5,14 +5,13 @@
 	<key>content</key>
 	<string>/*******************************************************************************
  * $1
-*******************************************************************************/
-$2</string>
+*******************************************************************************/$0</string>
 	<key>name</key>
-	<string>BigComment</string>
+	<string>Big Ass Comment</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>bc</string>
+	<string>bac</string>
 	<key>uuid</key>
 	<string>0E888374-E094-4E92-9987-6562ED596D30</string>
 </dict>
